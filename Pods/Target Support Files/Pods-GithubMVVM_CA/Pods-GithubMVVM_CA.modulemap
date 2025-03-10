@@ -1,0 +1,6 @@
+framework module Pods_GithubMVVM_CA {
+  umbrella header "Pods-GithubMVVM_CA-umbrella.h"
+
+  export *
+  module * { export * }
+}
