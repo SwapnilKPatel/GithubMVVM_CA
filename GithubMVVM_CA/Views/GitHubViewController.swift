@@ -19,7 +19,7 @@ class GitHubViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         bindViewModel()
-        viewModel.fetchRepositories(for: "swapnilkpatel") // Example GitHub username
+        viewModel.fetchRepositories(for: "airbnb") // Example GitHub username
     }
     
     private func setupUI() {
